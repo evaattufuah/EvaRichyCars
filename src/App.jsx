@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Scene from "./Components/Scene";
 import SignIn from "./Components/SignIn";
 import MakePayment from "./components/MakePayment";
-import MakePayment1 from "./components/MakePayment1";
+import MakePayments from "./components/MakePayments";
 import LandingPage from "./Components/LandingPage";
 import AllCarsPage from "./Components/AllCarsPage";
 import BookingForm from "./Components/BookingForm";
@@ -32,7 +32,7 @@ function App() {
         <Route path="/rent_cars" element={<BookingForm />} />
         <Route path="/bookings" element={<BookingsPage />} />
         <Route path="/make_payment" element={<MakePayment />} />
-        <Route path="/make_payments" element={<MakePayment1 />} />
+        <Route path="/make_payments" element={<MakePayments />} />
         <Route path="/about_us" element={<AboutUs />} />
         <Route path="/landing_page" element={<LandingPage />} />
         <Route path="/services" element={<Services />} />

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabaseClient";
 
-const MakePayment1 = () => {
+const MakePayments = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { car } = location.state || {};
@@ -324,4 +324,4 @@ const MakePayment1 = () => {
   );
 };
 
-export default MakePayment1;
+export default MakePayments;
