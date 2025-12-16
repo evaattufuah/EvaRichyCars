@@ -1,0 +1,6 @@
+
+@import "tailwindcss";
+/* Add to global CSS or Tailwind config */
+.hover\:shadow-xl:hover {
+  box-shadow: 0 10px 25px rgba(255, 165, 0, 0.1);
+}
