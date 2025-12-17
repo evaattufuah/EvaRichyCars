@@ -41,7 +41,7 @@ function App() {
         <Route path="/blogs" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="/cars" element={<Cars />} />
-        <Route path="/" element={<VehicleSearch />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/vehicles" element={<VehicleResults />} />
         <Route path="/car/:slug" element={<CarDetail />} />
       </Routes>
