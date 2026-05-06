@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import maserati from "../assets/Images/maserati.jpg";
-import car from "../assets/Images/land-rover-defender-3840x2160-22984.jpg";
-import Lexus from "../assets/Images/dhiva.jpg";
-import modern from "../assets/Images/hd_range_rover.jpg";
+import maserati from "../assets/Images/maserati.avif";
+import car from "../assets/Images/land-rover-defender-3840x2160-22984.avif";
+import Lexus from "../assets/Images/dhiva.avif";
+import modern from "../assets/Images/hd_range_rover.avif";
 
 gsap.registerPlugin(ScrollTrigger);
 
