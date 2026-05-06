@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import lexus from "../assets/Images/cadillac1.jpg";
+import lexus from "../assets/Images/cadillac1.avif";
 import Rolls from "../assets/Images/hd-rolls-royce-backgrounds.jpg";
 import mercedes from "../assets/Images/hd-mercedes-benz-gle-wallpaper-image.jpg";
 import suzuki from "../assets/Images/bike-hd-gsx-r-background.jpg";
